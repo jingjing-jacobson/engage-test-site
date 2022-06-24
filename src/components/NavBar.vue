@@ -1,0 +1,73 @@
+<template>
+  <v-card class="overflow-hidden">
+    <v-app-bar
+      color="#6A76AB"
+      dark
+      dense
+    >
+      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+
+      <v-toolbar-title>Title</v-toolbar-title>
+
+      <v-spacer></v-spacer>
+
+      <v-btn icon>
+        <v-icon>mdi-magnify</v-icon>
+      </v-btn>
+
+      <v-btn icon>
+        <v-icon>mdi-heart</v-icon>
+      </v-btn>
+
+      <v-menu
+        bottom
+        left
+      >
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            icon
+            color="yellow"
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon>mdi-dots-vertical</v-icon>
+          </v-btn>
+        </template>
+
+        <v-list>
+          <v-list-item>
+            <v-list-item-title>Click Me 1</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title>Click Me 2</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title>Click Me 3</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title>Click Me 4</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
+
+      <template v-slot:extension>
+        <v-tabs align-with-title>
+          <v-tab><router-link to="/" class="nav-link">Home</router-link></v-tab>
+
+          <v-tab><router-link to="/about" class="nav-link" >About</router-link></v-tab>
+
+          <v-tab><router-link to="/" class="nav-link">Placeholder</router-link></v-tab>
+        </v-tabs>
+      </template>
+    </v-app-bar>
+  </v-card>
+</template>
+
+<style>
+.v-application a {
+    color: white;
+}
+</style>
