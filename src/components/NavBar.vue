@@ -7,7 +7,7 @@
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Title</v-toolbar-title>
+      <v-toolbar-title>Pendo Engage Test Site</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
