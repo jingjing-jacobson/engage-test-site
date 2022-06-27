@@ -67,7 +67,7 @@
 </template>
 
 <style>
-.v-application a {
-    color: white;
+.nav-link {
+    color: white !important;
 }
 </style>
