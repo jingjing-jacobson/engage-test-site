@@ -3,5 +3,5 @@ module.exports = defineConfig({
   transpileDependencies: [
     'vuetify'
   ],
-  publicPath: process.env.NODE_ENV === "production" ? "/adopt-test-site.github.io/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/engage-test-site.github.io/" : "/",
 })
