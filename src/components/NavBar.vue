@@ -60,6 +60,7 @@
           <v-tab><router-link to="/about" class="nav-link" >About</router-link></v-tab>
 
           <v-tab><router-link to="/" class="nav-link">Placeholder</router-link></v-tab>
+          <v-tab id="5748932759208f2"><router-link to="/login" class="nav-link">Login</router-link></v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
