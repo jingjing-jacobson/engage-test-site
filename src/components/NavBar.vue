@@ -36,19 +36,19 @@
 
         <v-list>
           <v-list-item>
-            <v-list-item-title>Click Me 1</v-list-item-title>
+            <v-list-item-title><a href="https://github.com/" target="_blank">Github</a></v-list-item-title>
           </v-list-item>
 
           <v-list-item>
-            <v-list-item-title>Click Me 2</v-list-item-title>
+            <v-list-item-title><a href="https://mail.google.com" target="_blank">Gmail</a></v-list-item-title>
           </v-list-item>
 
           <v-list-item>
-            <v-list-item-title>Click Me 3</v-list-item-title>
+            <v-list-item-title><a href="https://calendar.google.com" target="_blank">Calendar</a></v-list-item-title>
           </v-list-item>
 
           <v-list-item>
-            <v-list-item-title>Click Me 4</v-list-item-title>
+            <v-list-item-title><a href="https://stackoverflow.com/" target="_blank">Stackoverflow</a></v-list-item-title>
           </v-list-item>
         </v-list>
       </v-menu>

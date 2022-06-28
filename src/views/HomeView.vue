@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>This is the home page</h1>
+    <h1>Home Page</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet lectus proin nibh nisl. Duis at tellus at urna. Eget aliquet nibh praesent tristique. Id semper risus in hendrerit. Mi sit amet mauris commodo quis imperdiet. Tellus rutrum tellus pellentesque eu. Eget magna fermentum iaculis eu non. Id aliquet lectus proin nibh nisl condimentum id. Tortor pretium viverra suspendisse potenti nullam. Sollicitudin nibh sit amet commodo nulla. Amet dictum sit amet justo donec enim.</p>
 
