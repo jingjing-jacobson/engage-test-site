@@ -55,19 +55,24 @@
 
       <template v-slot:extension>
         <v-tabs align-with-title>
-          <v-tab><router-link to="/" class="nav-link">Home</router-link></v-tab>
+          <v-tab v-on:click="linkTo('/')">Home</v-tab>
+          <v-tab v-on:click="linkTo('/about')" id="5748932759208f2">About</v-tab>
+          <v-tab v-on:click="linkTo('/playground')">Playground</v-tab>
 
-          <v-tab><router-link to="/about" class="nav-link" >About</router-link></v-tab>
-
-          <v-tab id="5748932759208f2"><router-link to="/login" class="nav-link">Login</router-link></v-tab>
+          <!-- <v-tab id="5748932759208f2"><router-link to="/login" class="nav-link">Login</router-link></v-tab> -->
         </v-tabs>
       </template>
     </v-app-bar>
   </v-card>
 </template>
 
-<style>
-.nav-link {
-    color: white !important;
-}
-</style>
+<script>
+  export default {
+    name: 'NavBar',
+    methods: {
+      linkTo(url) {
+        this.$router.push(url);
+      }
+    }
+  }
+</script>

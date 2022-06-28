@@ -7,15 +7,15 @@
 
         pendo.initialize({
             visitor: {
-                id: 'jingjing-jacobson',
-                email: 'jingjing.jacobson@pendo.io',
-                full_name: 'JingJing Jacobson',
-                role: 'Front End Engineer'
+                id: 'visitor-418',
+                email: 'visitor418@test.com',
+                full_name: 'Visitor Name',
+                role: 'HR Specialist'
             },
 
             account: {
-                id: 'PENDO',
-                name: 'Pendo'
+                id: 'ACC418',
+                name: 'Acc418'
             }
         });
 })('3337dc19-532e-4346-53c1-094ce36a3dd8');
