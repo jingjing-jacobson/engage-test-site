@@ -7,11 +7,11 @@
 
             <v-spacer></v-spacer>
 
-            <v-btn icon>
+            <v-btn class="magnifying-button" icon>
                 <v-icon>mdi-magnify</v-icon>
             </v-btn>
 
-            <v-btn id="5720840290fd2" icon>
+            <v-btn class="heart-button" id="5720840290fd2" icon>
                 <v-icon>mdi-heart</v-icon>
             </v-btn>
 
