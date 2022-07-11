@@ -7,15 +7,15 @@
 
         pendo.initialize({
             visitor: {
-                id: 'visitor-418',
-                email: 'visitor418@test.com',
-                full_name: 'Visitor Name',
-                role: 'HR Specialist'
+                id: 'visitor-934',
+                email: 'visitor934@test.com',
+                full_name: 'Sally Johnson',
+                role: 'Data Analyst'
             },
 
             account: {
-                id: 'ACC418',
-                name: 'Acc418'
+                id: 'ACC934',
+                name: 'Acc934'
             }
         });
 })('3337dc19-532e-4346-53c1-094ce36a3dd8');

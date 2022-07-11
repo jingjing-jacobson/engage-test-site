@@ -1,24 +1,24 @@
 <template>
-<v-app>
-    <NavBar/>
-    <v-main>
-      <router-view/>
-    </v-main>
-  </v-app>
+    <v-app>
+        <NavBar />
+        <v-main>
+            <router-view />
+        </v-main>
+    </v-app>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue';
 
 export default {
-  name: 'App',
+    name: 'App',
 
-  components: {
-    NavBar
-},
+    components: {
+        NavBar
+    },
 
-  data: () => ({
-    //
-  }),
+    data: () => ({
+        //
+    })
 };
 </script>
