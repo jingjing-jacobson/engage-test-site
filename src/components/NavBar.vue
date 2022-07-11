@@ -7,17 +7,17 @@
 
             <v-spacer></v-spacer>
 
-            <v-btn class="magnifying-button" icon>
+            <v-btn id="magnifying-button" icon>
                 <v-icon>mdi-magnify</v-icon>
             </v-btn>
 
-            <v-btn class="heart-button" id="5720840290fd2" icon>
+            <v-btn id="heart-button 5720840290fd2" icon>
                 <v-icon>mdi-heart</v-icon>
             </v-btn>
 
             <v-menu bottom left>
                 <template v-slot:activator="{ on, attrs }">
-                    <v-btn icon color="yellow" v-bind="attrs" v-on="on">
+                    <v-btn id="dots-button" icon color="green" v-bind="attrs" v-on="on">
                         <v-icon>mdi-dots-vertical</v-icon>
                     </v-btn>
                 </template>
