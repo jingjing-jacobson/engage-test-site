@@ -1,7 +1,7 @@
 <template>
     <v-card class="overflow-hidden">
         <v-app-bar color="#6A76AB" dark dense>
-            <v-app-bar-nav-icon></v-app-bar-nav-icon>
+            <v-app-bar-nav-icon id="hamburger-menu"></v-app-bar-nav-icon>
 
             <v-toolbar-title>Pendo Engage Test Site</v-toolbar-title>
 
