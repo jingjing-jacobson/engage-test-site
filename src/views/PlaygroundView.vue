@@ -1,5 +1,5 @@
 <template>
-    <div class="playground">
+    <div>
         <h1>Playground</h1>
         <p>Here's a playground, go and click on a bunch of things.</p>
         <div class="flex-container">
@@ -25,9 +25,9 @@ export default {
 </script>
 
 <style>
-.playground {
+/* .playground {
     padding: 20px;
-}
+} */
 .flex-container {
     display: flex;
     gap: 20px;
