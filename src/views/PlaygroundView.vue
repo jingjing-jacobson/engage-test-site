@@ -32,4 +32,9 @@ export default {
     display: flex;
     gap: 20px;
 }
+.a-class-rs9999aaaa9999aaaa {
+    background-color: red;
+    height: 30px;
+    width: 30px;
+}
 </style>
