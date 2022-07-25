@@ -2,7 +2,12 @@
     <div class="playground">
         <h1>Playground</h1>
         <p>Here's a playground, go and click on a bunch of things.</p>
-        <v-btn elevation="2" v-on:click="showAlert('You clicked me!')">Click me!</v-btn>
+        <div class="flex-container">
+            <v-btn elevation="2" v-on:click="showAlert('You clicked me!')">Click me!</v-btn>
+            <v-btn elevation="2" id="some-id-rs12341234abcdabcd">dynamic id</v-btn>
+            <v-btn elevation="2" class="a-class-rs9999aaaa9999aaaa">dynamic class</v-btn>
+            <v-btn elevation="2" id="1234-rs12341234abcdabcd">invalid</v-btn>
+        </div>
     </div>
 </template>
 
@@ -20,5 +25,9 @@ export default {
 <style>
 .playground {
     padding: 20px;
+}
+.flex-container {
+    display: flex;
+    gap: 20px;
 }
 </style>
