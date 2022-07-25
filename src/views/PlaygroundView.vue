@@ -8,7 +8,8 @@
             <!-- <v-btn class="a-class-rs9999aaaa9999aaaa">dynamic class</v-btn> -->
             <v-btn elevation="2" id="rs123412345678abcd">invalid</v-btn>
         </div>
-        <h5 class="a-class-rs9999aaaa9999aaaa">sam's club dynamic class</h5>
+        <br/>
+        <div class="a-class-rs9999aaaa9999aaaa">sam's club dynamic class</div>
     </div>
 </template>
 
