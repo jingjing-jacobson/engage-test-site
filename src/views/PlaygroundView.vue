@@ -1,15 +1,15 @@
 <template>
-    <div>
-        <h1 class="a-class-rs9999aaaa9999aaab">Playground</h1>
+    <div class="playground">
+        <h1>Playground</h1>
         <p>Here's a playground, go and click on a bunch of things.</p>
         <div class="flex-container">
             <v-btn elevation="2" v-on:click="showAlert('You clicked me!')">Click me!</v-btn>
             <v-btn elevation="2" id="some-id-rs12341234abcdabcd">dynamic id</v-btn>
             <!-- <v-btn class="a-class-rs9999aaaa9999aaaa">dynamic class</v-btn> -->
-            <v-btn elevation="2" id="rs123412345678abcd">invalid</v-btn>
+            <v-btn elevation="2" id="rs12341234abcdabcd">invalid</v-btn>
         </div>
         <br/>
-        <div class="a-class-rs9999aaaa9999aaaa"></div>
+        <div class="a-class-rs9999aaaa9999aaaa" style="background-color: red; height: 30px; width: 30px;"></div>
     </div>
 </template>
 
@@ -25,16 +25,16 @@ export default {
 </script>
 
 <style>
-/* .playground {
+.playground {
     padding: 20px;
-} */
+}
 .flex-container {
     display: flex;
     gap: 20px;
 }
-.a-class-rs9999aaaa9999aaaa {
+/* .a-class-rs9999aaaa9999aaaa {
     background-color: red;
     height: 30px;
     width: 30px;
-}
+} */
 </style>
