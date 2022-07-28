@@ -2,19 +2,19 @@
     (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=o._q||[];
     v=['initialize','identify','updateOptions','pageLoad','track'];for(w=0,x=v.length;w<x;++w)(function(m){
         o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
-        y=e.createElement(n);y.async=!0;y.src='https://pendo-calypso-static.storage.googleapis.com/agent/static/'+apiKey+'/pendo.js';
+        y=e.createElement(n);y.async=!0;y.src='https://pendo-dev-static.storage.googleapis.com/agent/static/'+apiKey+'/pendo.js';
         z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
 
         pendo.initialize({
             visitor: {
-                id: 'visitor-934',
-                email: 'visitor934@test.com',
+                id: 'visitor-432',
+                email: 'visitor432@test.com',
                 full_name: 'Test Test',
             },
 
             account: {
-                id: 'ACC934',
-                name: 'Acc934'
+                id: 'ACC432',
+                name: 'Acc432'
             }
         });
-})('861ad70b-c4f9-455e-518d-fa53aa25ba63');
+})('3337dc19-532e-4346-53c1-094ce36a3dd8');
