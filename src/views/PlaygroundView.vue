@@ -1,6 +1,6 @@
 <template>
     <div class="playground">
-        <h1>Playground</h1>
+        <h1 class="playground-h1">Playground</h1>
         <p>Here's a playground, go and click on a bunch of things.</p>
         <div class="flex-container">
             <v-btn elevation="2" v-on:click="showAlert('You clicked me!')">Click me!</v-btn>
