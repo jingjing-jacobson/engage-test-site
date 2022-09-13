@@ -11,12 +11,25 @@
         </div>
         <br/>
         <div class="a-class-rs9999aaaa9999aaaa" style="background-color: red; height: 30px; width: 30px;"></div>
+        <br/>
+        <v-select
+          :items="items"
+          class="dropdown"
+          id="dropdown-id"
+          label="Outlined style"
+          outlined
+        ></v-select>
     </div>
 </template>
 
 <script>
 export default {
     name: 'PlaygroundView',
+    data() {
+        return {
+            items: ['foo', 'bar', 'fizz', 'buzz']
+        }
+    },
     methods: {
         showAlert(msg) {
             alert(msg);
@@ -32,6 +45,9 @@ export default {
 .flex-container {
     display: flex;
     gap: 20px;
+}
+.dropdown {
+    width: 250px;
 }
 /* .a-class-rs9999aaaa9999aaaa {
     background-color: red;
