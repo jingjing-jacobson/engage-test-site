@@ -2,19 +2,19 @@
     (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=o._q||[];
     v=['initialize','identify','updateOptions','pageLoad','track'];for(w=0,x=v.length;w<x;++w)(function(m){
         o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
-        y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo-armada.pendo-dev.com/agent/static/'+apiKey+'/pendo.js';
+        y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo-dap.pendo-dev.com/agent/static/'+apiKey+'/pendo.js';
         z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
 
         pendo.initialize({
             visitor: {
-                id: 'visitor-432',
-                email: 'visitor432@test.com',
-                full_name: 'Test Test',
+                id: 'jingjing-jacobson',
+                email: 'jingjing.jacobson@pendo.io',
+                full_name: 'JingJing Jacobson',
             },
 
             account: {
-                id: 'ACC432',
-                name: 'Acc432'
+                id: 'foo',
+                name: 'bar'
             }
         });
-})('d6b4cd86-abc7-4ba0-67a9-04b7f747176f'); // armada engage-only sub
+})('be9115b4-b2b0-4380-712c-694fbdea2a4b'); // dap jingjing-adopt sub
