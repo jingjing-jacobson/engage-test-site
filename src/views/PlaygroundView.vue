@@ -5,38 +5,22 @@
         <div class="flex-container">
             <v-btn elevation="2" v-on:click="showAlert('You clicked me!')">Click me!</v-btn>
             <v-btn elevation="2" id="1646428942dd324">dynamic id</v-btn>
-            <!-- <v-btn class="a-class-rs9999aaaa9999aaaa">dynamic class</v-btn> -->
-            <!-- <v-btn elevation="2" id="rs12341234abcdabcd">invalid</v-btn> -->
             <v-btn elevation="2" data-meta-id="335dfe1c1f324c479a24bd8b5e1cb454">data-meta-id</v-btn>
         </div>
-        <br/>
-        <div class="a-class-rs9999aaaa9999aaaa" style="background-color: red; height: 30px; width: 30px;"></div>
-        <br/>
-        <!-- <v-select
-          :items="items"
-          class="dropdown"
-          id="dropdown-id"
-          label="Outlined style"
-          outlined
-        ></v-select> -->
-        <label for="cars">Choose a car:</label>
-        <select name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-        </select>
+        <div class="iframe-label">Here's an iframe!</div>
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="https://pendo-engage-jlj-test.netlify.app/iframe" title="iframe page" frameborder="2" allowfullscreen></iframe>
+        </div>
+        <div class="iframe-label">Here's an another iframe!</div>
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="https://pendo-engage-jlj-test.netlify.app/another-iframe" title="iframe page" frameborder="2" allowfullscreen></iframe>
+        </div>
     </div>
 </template>
 
 <script>
 export default {
     name: 'PlaygroundView',
-    data() {
-        return {
-            items: ['foo', 'bar', 'fizz', 'buzz']
-        }
-    },
     methods: {
         showAlert(msg) {
             alert(msg);
@@ -53,12 +37,11 @@ export default {
     display: flex;
     gap: 20px;
 }
-.dropdown {
-    width: 250px;
+.iframe-container {
+    padding-top: 5px;
 }
-/* .a-class-rs9999aaaa9999aaaa {
-    background-color: red;
-    height: 30px;
-    width: 30px;
-} */
+.iframe-label {
+    padding-top: 20px;
+    font-weight: bold;
+};
 </style>
