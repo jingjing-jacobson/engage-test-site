@@ -3,7 +3,7 @@
         <h1 class="playground-h1">Playground</h1>
         <p>Here's a playground, go and click on a bunch of things.</p>
         <div class="flex-container">
-            <v-btn elevation="2" v-on:click="showAlert('You clicked me!')">Click me!</v-btn>
+            <v-btn elevation="2" title="some-buton" v-on:click="showAlert('You clicked me!')">Click me!</v-btn>
             <v-btn elevation="2" id="1646428942dd324">dynamic id</v-btn>
             <v-btn elevation="2" data-meta-id="335dfe1c1f324c479a24bd8b5e1cb454">data-meta-id</v-btn>
         </div>
