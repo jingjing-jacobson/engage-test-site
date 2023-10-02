@@ -17,6 +17,6 @@
                 name: 'bar'
             }
         });
-})('3337dc19-532e-4346-53c1-094ce36a3dd8'); // dev jingjing-test sub
+})('be9115b4-b2b0-4380-712c-694fbdea2a4b'); // dap jining-adopt sub
 // 3337dc19-532e-4346-53c1-094ce36a3dd8 dev jingjing-test
 // be9115b4-b2b0-4380-712c-694fbdea2a4b dap jining-adopt
