@@ -14,6 +14,9 @@
             <v-btn id="heart-button" icon>
                 <v-icon>mdi-heart</v-icon>
             </v-btn>
+            <v-btn id="donkey-button" icon>
+                <v-icon>mdi-donkey</v-icon>
+            </v-btn>
 
             <v-menu bottom left>
                 <template v-slot:activator="{ on, attrs }">
