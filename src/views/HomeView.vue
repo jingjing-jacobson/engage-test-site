@@ -4,15 +4,15 @@
         <v-form @submit.prevent>
             <v-container class="form-container">
                 <v-row>
-                    <v-text-field id="first-name-input" v-model="firstName" label="First name"> </v-text-field>
+                    <v-text-field v-model="firstName" label="First name"> </v-text-field>
                 </v-row>
                 <v-row>
-                    <v-text-field id="last-name-input" v-model="lastName" label="Last name"> </v-text-field>
+                    <v-text-field v-model="lastName" label="Last name"> </v-text-field>
                 </v-row>
                 <v-row>
-                    <v-text-field id="fun-fact-input" v-model="funFact" label="A fun silly fact"> </v-text-field>
+                    <v-text-field v-model="funFact" label="A fun silly fact"> </v-text-field>
                 </v-row>
-                <v-btn id="form-submit-btn" type="submit">
+                <v-btn type="submit">
                   Submit
                 </v-btn>
             </v-container>
