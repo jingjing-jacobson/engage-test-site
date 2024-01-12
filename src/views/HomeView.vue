@@ -17,6 +17,9 @@
                 </v-btn>
             </v-container>
         </v-form>
+        <v-btn class="pendo-ignore">
+            .pendo-ignore class
+        </v-btn>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Id nibh tortor id aliquet lectus proin nibh nisl. Duis at tellus at urna. Eget aliquet
