@@ -20,9 +20,9 @@
         <v-btn class="pendo-ignore">
             .pendo-ignore class
         </v-btn>
-        <v-btn class="#_n1oz$b">
+        <button class="#_n1oz$b">
             invalid class
-        </v-btn>
+        </button>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Id nibh tortor id aliquet lectus proin nibh nisl. Duis at tellus at urna. Eget aliquet
