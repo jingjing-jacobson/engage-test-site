@@ -21,7 +21,7 @@
             .pendo-ignore class
         </v-btn>
         <button class="#_n1oz$b">
-            invalid class
+            
         </button>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
