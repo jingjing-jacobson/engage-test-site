@@ -20,9 +20,9 @@
         <v-btn class="pendo-ignore">
             .pendo-ignore class
         </v-btn>
-        <button class="#_n1oz$b">
+        <v-btn class="invalid-btn">
             invalid attribute?            
-        </button>
+        </v-btn>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Id nibh tortor id aliquet lectus proin nibh nisl. Duis at tellus at urna. Eget aliquet
@@ -83,5 +83,8 @@ export default {
   width: 700px;
   margin-right: inherit;
   margin-left: inherit;
+}
+.invalid-btn:authorize {
+    color: red !important;
 }
 </style>
