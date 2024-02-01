@@ -20,7 +20,7 @@
         <v-btn class="pendo-ignore">
             .pendo-ignore class
         </v-btn>
-        <v-btn class="invalid-btn">
+        <v-btn id="_n1oz$b">
             invalid attribute?            
         </v-btn>
         <p>
