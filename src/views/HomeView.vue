@@ -20,9 +20,10 @@
         <v-btn class="pendo-ignore">
             .pendo-ignore class
         </v-btn>
-        <v-btn id="_n1oz$b">
+        <!-- <v-btn id="_n1oz$b">
             invalid attribute?            
-        </v-btn>
+        </v-btn> -->
+        <a role="menuitem" id="_n1oz$b" bh="PMI" class="w-pmi-item cellColl" aria-hidden="false" href="#" tabindex="-1">Invoice</a>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Id nibh tortor id aliquet lectus proin nibh nisl. Duis at tellus at urna. Eget aliquet
