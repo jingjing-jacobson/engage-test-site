@@ -17,7 +17,7 @@
                 </v-btn>
             </v-container>
         </v-form>
-        <v-btn class="pendo-ignore">
+        <v-btn class="pendo-ignore" @click="onClick">
             .pendo-ignore class
         </v-btn>
         <!-- <v-btn id="_n1oz$b">
@@ -72,6 +72,12 @@ export default {
             lastName: '',
             funFact: ''
         };
+    },
+    methods: {
+        onClick () {
+            console.warn('sending track event');
+            window.pendo.track('babys-first-track-event');
+        }
     }
 };
 </script>
