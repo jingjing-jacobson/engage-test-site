@@ -20,6 +20,13 @@
         <v-btn class="pendo-ignore" @click="onClick">
             .pendo-ignore class
         </v-btn>
+        <br>
+        <br>
+        <v-btn id="attribute-with-no-value" empty-attribute>
+            empty attribute
+        </v-btn>
+        <br>
+        <br>
         <!-- <v-btn id="_n1oz$b">
             invalid attribute?            
         </v-btn> -->
