@@ -25,7 +25,7 @@ export default {
 
 <style>
 #pendo-designer-container {
-    height: 800px;
-    max-height: 800px;
+    height: 800px !important;
+    max-height: 800px !important;
 }
 </style>
