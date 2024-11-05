@@ -27,6 +27,14 @@
         </v-btn>
         <br>
         <br>
+        <div class="cards-wrapper">
+            <div v-for="card in cards" :key="card.title" class="card-wrapper">
+                <v-btn class="card-title-btn">
+                    {{ card.title }}
+                </v-btn>
+                <div class="card-content">{{ card.content }}</div>
+            </div>
+        </div>
         <!-- <v-btn id="_n1oz$b">
             invalid attribute?            
         </v-btn> -->
@@ -77,7 +85,21 @@ export default {
         return {
             firstName: '',
             lastName: '',
-            funFact: ''
+            funFact: '',
+            cards: [
+                {
+                    title: 'Card 1',
+                    content: 'This is card 1'
+                },
+                {
+                    title: 'Card 2',
+                    content: 'This is card 2'
+                },
+                {
+                    title: 'Card 3',
+                    content: 'This is card 3'
+                }
+            ]
         };
     },
     methods: {
@@ -100,5 +122,10 @@ export default {
 }
 .invalid-btn:authorize {
     color: red !important;
+}
+.card-wrapper {
+    border: 1px solid #8ACE00;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 </style>
