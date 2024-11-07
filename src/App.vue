@@ -22,10 +22,3 @@ export default {
     })
 };
 </script>
-
-<style>
-#pendo-designer-container {
-    height: 800px !important;
-    max-height: 800px !important;
-}
-</style>
