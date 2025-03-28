@@ -22,6 +22,11 @@
         </v-btn>
         <br>
         <br>
+        <v-btn id="hello:world">
+            id with colon
+        </v-btn>
+        <br>
+        <br>
         <v-btn id="attribute-with-no-value" empty-attribute>
             empty attribute
         </v-btn>
