@@ -10,6 +10,15 @@
                     <v-text-field id="last-name-input" v-model="lastName" label="Last name"> </v-text-field>
                 </v-row>
                 <v-row>
+                    <v-text-field id="email-input" v-model="email" label="Email" type="email"> </v-text-field>
+                </v-row>
+                <v-row>
+                    <v-text-field id="phone-input" v-model="phone" label="Phone Number" type="tel"> </v-text-field>
+                </v-row>
+                <v-row>
+                    <v-text-field id="password-input" v-model="password" label="Password" type="password"> </v-text-field>
+                </v-row>
+                <v-row>
                     <v-text-field id="fun-fact-input" v-model="funFact" label="A fun silly fact"> </v-text-field>
                 </v-row>
                 <v-btn id="form-submit-btn" type="submit">
@@ -90,6 +99,9 @@ export default {
         return {
             firstName: '',
             lastName: '',
+            email: '',
+            phone: '',
+            password: '',
             funFact: '',
             cards: [
                 {
