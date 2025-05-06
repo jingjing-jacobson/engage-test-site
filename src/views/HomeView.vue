@@ -1,6 +1,20 @@
 <template>
     <div class="home">
         <h1 class="home-h1">Home Page</h1>
+        <div class="pii-container">
+            <h3>PII</h3>
+            <ul>
+                <li><strong>Name:</strong> John Doe</li>
+                <li><strong>Address:</strong> 123 Main St, Springfield, IL</li>
+                <li><strong>Email:</strong> johndoe@example.com</li>
+                <li><strong>Phone Number:</strong> (555) 123-4567</li>
+                <li><strong>Zipcode:</strong> 62704</li>
+                <li><strong>SSN:</strong> 123-45-6789</li>
+                <li><strong>Passport Number:</strong> X12345678</li>
+                <li><strong>Credit Card Number:</strong> 4111 1111 1111 1111</li>
+                <li><strong>Birthdate:</strong> 01/01/1980</li>
+            </ul>
+        </div>
         <v-form @submit.prevent>
             <v-container class="form-container">
                 <v-row>
