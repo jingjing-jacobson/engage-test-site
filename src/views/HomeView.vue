@@ -118,7 +118,8 @@
                 <li>FIRST.LAST@COMPANY.ORG</li>
                 <li>admin@localhost</li>
                 <li>test.email+alex@leetcode.com</li>
-                <li>"weird\"email"@example.com</li>
+                <li>"\"weird@email\""@example.com </li>
+                <li>"john.doe"@example.com</li>
             </ul>
 
             <h3>📞 US & International Phone Numbers:</h3>
