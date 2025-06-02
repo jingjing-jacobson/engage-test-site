@@ -106,6 +106,117 @@
             luctus accumsan tortor. Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Sagittis id
             consectetur purus ut faucibus pulvinar elementum.
         </p>
+
+        <div class="pii-data-section">
+            <h2>Extended PII Data Collection</h2>
+            
+            <h3>📧 Email Addresses:</h3>
+            <ul>
+                <li>john.doe@example.com</li>
+                <li>jane_doe123@sub.mail.co.uk</li>
+                <li>user+alias@domain.io</li>
+                <li>FIRST.LAST@COMPANY.ORG</li>
+                <li>admin@localhost</li>
+                <li>test.email+alex@leetcode.com</li>
+                <li>"weird\"email"@example.com</li>
+            </ul>
+
+            <h3>📞 US & International Phone Numbers:</h3>
+            <ul>
+                <li>123-456-7890</li>
+                <li>(123) 456-7890</li>
+                <li>123.456.7890</li>
+                <li>+1 (123) 456-7890</li>
+                <li>+11234567890</li>
+                <li>4567890</li>
+                <li>1-800-FLOWERS</li>
+                <li>+44 20 7946 0958        (UK)</li>
+                <li>+49 30 901820           (Germany)</li>
+                <li>+91-9876543210          (India)</li>
+                <li>+81 3-1234-5678         (Japan)</li>
+                <li>+33 1 23 45 67 89       (France)</li>
+                <li>+61 2 9876 5432         (Australia)</li>
+                <li>+55 11 91234-5678       (Brazil)</li>
+                <li>+234 803 123 4567       (Nigeria)</li>
+                <li>+86 10 1234 5678        (China)</li>
+            </ul>
+
+            <h3>💳 Credit Card Numbers:</h3>
+            <ul>
+                <li>4111 1111 1111 1111</li>
+                <li>5500 0000 0000 0004</li>
+                <li>3400 0000 0000 009</li>
+                <li>6011 0000 0000 0004</li>
+                <li>3000 0000 0000 04</li>
+                <li>3530 1113 3330 0000</li>
+            </ul>
+
+            <h3>🔐 Social Security Numbers (SSN):</h3>
+            <ul>
+                <li>123-45-6789</li>
+                <li>987654321</li>
+                <li>000-00-0000</li>
+                <li>666-66-6666</li>
+            </ul>
+
+            <h3>🌐 IPv4 Addresses:</h3>
+            <ul>
+                <li>192.168.0.1</li>
+                <li>10.0.0.255</li>
+                <li>127.0.0.1</li>
+                <li>255.255.255.255</li>
+                <li>0.0.0.0</li>
+                <li>8.8.8.8</li>
+                <li>172.16.254.3</li>
+            </ul>
+
+            <h3>🌐 IPv6 Addresses:</h3>
+            <ul>
+                <li>2001:0db8:85a3:0000:0000:8a2e:0370:7334</li>
+                <li>2001:db8::8a2e:370:7334</li>
+                <li>fe80::1ff:fe23:4567:890a</li>
+                <li>::1</li>
+                <li>::ffff:192.0.2.128</li>
+                <li>0:0:0:0:0:0:0:1</li>
+            </ul>
+
+            <h3>🎂 Dates (Birthdays):</h3>
+            <ul>
+                <li>01/02/1990</li>
+                <li>1990-02-01</li>
+                <li>February 1, 1990</li>
+                <li>2/1/90</li>
+                <li>1990.02.01</li>
+            </ul>
+
+            <h3>🏤 US ZIP Codes:</h3>
+            <ul>
+                <li>12345</li>
+                <li>12345-6789</li>
+                <li>54321</li>
+                <li>99999-0000</li>
+            </ul>
+
+            <h3>🏡 Street Addresses:</h3>
+            <ul>
+                <li>123 Main St</li>
+                <li>456 Elm Street Apt 7B</li>
+                <li>789 W. 1st Ave, Suite 300</li>
+                <li>1600 Pennsylvania Ave NW</li>
+                <li>1 Infinite Loop, Cupertino, CA</li>
+                <li>221B Baker Street</li>
+            </ul>
+
+            <h3>🛂 Passport Numbers:</h3>
+            <ul>
+                <li>C1234567</li>
+                <li>K3209876</li>
+                <li>YA3456789</li>
+                <li>123456789</li>
+                <li>AA0000000</li>
+                <li>L898902C3</li>
+            </ul>
+        </div>
     </div>
 </template>
 
