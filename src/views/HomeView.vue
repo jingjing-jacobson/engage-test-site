@@ -45,6 +45,12 @@
         </v-btn>
         <br>
         <br>
+        <v-btn class="css-a1b2c3">
+            emotion css class
+        </v-btn>
+        <v-btn class="css-a1b2c3-Button">
+            emotion css class 2
+        </v-btn>
         <v-btn id="hello:world">
             id with colon
         </v-btn>
