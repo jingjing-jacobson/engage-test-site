@@ -66,6 +66,11 @@
         </v-btn>
         <br>
         <br>
+        <v-btn id="data-attr" data-attr="1234567">
+            dynamic data-attr
+        </v-btn>
+        <br>
+        <br>
         <div class="cards-wrapper">
             <div v-for="card in cards" :key="card.title" class="card-wrapper">
                 <v-btn class="card-title-btn">
