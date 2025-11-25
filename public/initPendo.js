@@ -17,7 +17,7 @@
                 name: 'bar'
             }
         });
-})('be9115b4-b2b0-4380-712c-694fbdea2a4');
+})('be9115b4-b2b0-4380-712c-694fbdea2a4b');
 // 4fb836bc-2c26-4b7b-aaea-c3f3c8ca25d6 dap jj single sub app
 // 3337dc19-532e-4346-53c1-094ce36a3dd8 dev jingjing-test
 // be9115b4-b2b0-4380-712c-694fbdea2a4b dap jining-adopt
