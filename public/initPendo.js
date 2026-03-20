@@ -10,6 +10,7 @@
                 id: 'jingjing-jacobson',
                 email: 'jingjing.jacobson@pendo.io',
                 full_name: 'JingJing Jacobson',
+                isuserfirstvisit: false
             },
 
             account: {
